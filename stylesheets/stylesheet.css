@@ -101,6 +101,7 @@ header h2 {
   }
 
  #outcode {
+  margin-top:20px
   padding:10px;
   border:1px solid #808080;
   border-radius: 8px;
@@ -349,12 +350,13 @@ dl dt {
 footer {
  width:100%;
 /* background: transparent url('../images/hr.png') 0 0 no-repeat; */
-  margin-top: 40px;
+  margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 30px;
+  padding-right:10px;
   font-size: 13px;
-  color: #aaa;
-  background-color:#c4d85a;
+  color: #666666;
+  background-color:#203e92;
 }
 
 footer a {
