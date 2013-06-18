@@ -86,18 +86,42 @@ header h2 {
 }
 
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+/*  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;*/
   min-height: 595px;
-}
+  padding:5px;
+  border-top:1px solid #808080;
+  border-bottom:1px solid #808080;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   box-shadow: 0 35px 30px -30px #e8e8e8;
+  -webkit-box-shadow: 0 35px 30px -30px #e8e8e8;
+  -moz-box-shadow: 0 35px 30px -30px #e8e8e8;
+ 
+  
+  }
 
+ #outcode {
+  padding:5px;
+  border:1px solid #808080;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   box-shadow: 0 35px 30px -30px #e8e8e8;
+  -webkit-box-shadow: 0 35px 30px -30px #e8e8e8;
+  -moz-box-shadow: 0 35px 30px -30px #e8e8e8;
+ }
+  
 .inner {
   width: 620px;
   margin: 0 auto;
+  
 }
 
 #container .inner img {
   max-width: 60%;
 }
+
 
 #downloads {
   margin-bottom: 40px;
