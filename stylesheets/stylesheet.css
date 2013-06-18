@@ -51,7 +51,7 @@ body {
   font-size: 1em;
   line-height: 1.5; 
   /*background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;*/
-  background-color:#f3f3cc;
+  background-color:#f2f2f2;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #101a33;
@@ -89,27 +89,37 @@ header h2 {
 /*  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;*/
   min-height: 595px;
   padding:5px;
-  border-top:1px solid #808080;
-  border-bottom:1px solid #808080;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-   box-shadow: 0 35px 30px -30px #e8e8e8;
-  -webkit-box-shadow: 0 35px 30px -30px #e8e8e8;
-  -moz-box-shadow: 0 35px 30px -30px #e8e8e8;
+  border-top:2px solid #808080;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+   box-shadow: 0 35px 30px -30px #22324c;
+  -webkit-box-shadow: 0 35px 30px -30px #22324c;
+  -moz-box-shadow: 0 35px 30px -30px #22324c;
  
   
   }
 
  #outcode {
-  padding:5px;
+  padding:10px;
   border:1px solid #808080;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-   box-shadow: 0 35px 30px -30px #e8e8e8;
-  -webkit-box-shadow: 0 35px 30px -30px #e8e8e8;
-  -moz-box-shadow: 0 35px 30px -30px #e8e8e8;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+   box-shadow: 0 35px 30px -30px #22324c;
+  -webkit-box-shadow: 0 35px 30px -30px #22324c;
+  -moz-box-shadow: 0 35px 30px -30px #22324c;
+ }
+ 
+ #main_content {
+  padding:10px;
+  border:1px solid #808080;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+   box-shadow: 0 35px 30px -30px #22324c;
+  -webkit-box-shadow: 0 35px 30px -30px #22324c;
+  -moz-box-shadow: 0 35px 30px -30px #22324c;
  }
   
 .inner {
@@ -120,6 +130,9 @@ header h2 {
 
 #container .inner img {
   max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -334,12 +347,14 @@ dl dt {
 }
 
 footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+ width:100%;
+/* background: transparent url('../images/hr.png') 0 0 no-repeat; */
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
   color: #aaa;
+  background-color:#c4d85a;
 }
 
 footer a {
