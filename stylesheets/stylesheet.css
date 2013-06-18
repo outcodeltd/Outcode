@@ -124,7 +124,7 @@ header h2 {
  }
   
 .inner {
-  width: 620px;
+  width: 75%;
   margin: 0 auto;
   
 }
@@ -350,6 +350,7 @@ dl dt {
 footer {
  width:100%;
 /* background: transparent url('../images/hr.png') 0 0 no-repeat; */
+  border-top:2px solid #ffffff;
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -363,10 +364,10 @@ footer {
 }
 
 footer a {
-  color: #666;
+  color: #c4d85a;
 }
 footer a:hover {
-  color: #444;
+  color: #6f730a;
 }
 
 /* MISC */
